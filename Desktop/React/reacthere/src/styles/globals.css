@@ -1,0 +1,130 @@
+body {
+  max-width: 1216px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px 80px;
+  width: 100%;
+  gap: 500px;
+}
+.header-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-lists {
+  color: #4b5563;
+  display: flex;
+  gap: 20px;
+}
+.header-lists li {
+  list-style: none;
+}
+.header-theme {
+  padding: 6px;
+  margin-right: 16px;
+  border: 0;
+  background: none;
+}
+.header-cv-button {
+  width: 136px;
+  height: 32px;
+  border-radius: 12px;
+  padding: 6px 16px;
+  background: #111827;
+  color: #f9fafb;
+  border: 0;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 80px;
+  gap: 40px;
+}
+.description {
+  color: #111827;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  padding: 5px;
+}
+.description p {
+  color: #4b5563;
+}
+.this-location {
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+.this-location img{
+  height: 24px;
+  width: 24px;
+}
+.this-location div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.this-location-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.icons{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.iconContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.Introduction{
+  padding: 96px 80px;
+}
+.introduction-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 0 32px;
+}
+.intro-column{
+  display: flex;
+  flex-direction:row;
+  gap: 48px;
+}
+.intro-column img{
+  height: 480px;
+  width: 400px;
+}
+.aboutbutton{
+  height: 28px;
+  width: 105px;
+  background-color: #E5E7EB;
+  font-size: 14px;
+  border: 0;
+  border-radius: 12px;
+}
+.lists{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.intro-desc{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #4b5563;
+}
+
