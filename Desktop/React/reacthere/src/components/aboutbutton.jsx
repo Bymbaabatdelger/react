@@ -1,5 +1,3 @@
-export default function Aboutbutton(){
-    return(
-        <button className="aboutbutton">about me</button>
-    )
+export default function Aboutbutton(props) {
+  return <button className="aboutbutton">{props.title} </button>;
 }

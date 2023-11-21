@@ -56,13 +56,13 @@ section {
 .this-location {
   display: flex;
   flex-direction: column;
-  gap: 5px
+  gap: 5px;
 }
-.this-location img{
+.this-location img {
   height: 24px;
   width: 24px;
 }
-.this-location div{
+.this-location div {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -72,59 +72,114 @@ section {
   gap: 20px;
   flex-direction: column;
 }
-.icons{
-  display:flex;
+.icons {
+  display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
 }
-.iconContainer{
+.iconContainer {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-.Introduction{
+.Introduction {
   padding: 96px 80px;
 }
-.introduction-container{
+.introduction-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 48px;
   padding: 0 32px;
 }
-.intro-column{
+.intro-column {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 48px;
 }
-.intro-column img{
+.intro-column img {
   height: 480px;
   width: 400px;
 }
-.aboutbutton{
+.aboutbutton {
   height: 28px;
   width: 105px;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   font-size: 14px;
   border: 0;
   border-radius: 12px;
 }
-.lists{
+.lists {
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
-.list{
+.list {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.intro-desc{
+.intro-desc {
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #4b5563;
 }
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 80px;
+  gap: 16px;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  gap: 50px;
+}
+.details img {
+  height: 64px;
+  width: 64px;
+}
+.section4{
+  padding: 96px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
 
+}
+.render{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px;
+  background-color: #e5e7eb;
+  width: 896px;
+  border-radius: 10px;
+}
+.render img{
+  height: 48px;
+  width: 102px;
+  
+}
+.Section5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:  96px 80px;
+  gap: 16px;
+}
+.Footer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 96px 80px;
+gap: 16px;
+}

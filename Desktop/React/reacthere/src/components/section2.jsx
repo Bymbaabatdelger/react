@@ -4,7 +4,7 @@ export default function Section2 (){
     return(
         <section className="Introduction">
         <div className="introduction-container">
-          <Aboutbutton/>
+          <Aboutbutton title="About me"/>
           <div className="intro-column">
             <img src={Photo2.src}></img>
             <div className="intro-desc">
