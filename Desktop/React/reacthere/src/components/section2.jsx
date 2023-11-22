@@ -1,4 +1,4 @@
-import Photo2 from "../../public/Home/Desktop/Home/Desktop/Pic.png";
+import Photo2 from "../../public/Home/Desktop/Picsagar.png";
 import Aboutbutton from "@/components/aboutbutton";
 export default function Section2 (){
     return(

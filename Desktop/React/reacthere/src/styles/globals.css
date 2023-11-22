@@ -37,7 +37,7 @@ body {
   color: #f9fafb;
   border: 0;
 }
-section {
+.section {
   display: flex;
   justify-content: space-between;
   padding: 96px 80px;
@@ -85,6 +85,8 @@ section {
 }
 .Introduction {
   padding: 96px 80px;
+  background-color: #f9fafb;
+  border: 3px solid #14A800;
 }
 .introduction-container {
   display: flex;
@@ -149,7 +151,7 @@ section {
   align-items: center;
   flex-direction: column;
   gap: 16px;
-
+  background-color:#e5e7eb;
 }
 .render{
   display: flex;
@@ -158,7 +160,7 @@ section {
   align-items: flex-start;
   justify-content: center;
   padding: 32px;
-  background-color: #e5e7eb;
+  background-color:#f9fafb;
   width: 896px;
   border-radius: 10px;
 }
@@ -182,4 +184,48 @@ align-items: center;
 flex-direction: column;
 padding: 96px 80px;
 gap: 16px;
+}
+.email{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.email img{
+  height: 32px;
+  width: 32px;
+}
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 80px;
+  background-color: #f9fafb;
+}
+.end img {
+  height: 16px;
+  width: 16px;
+}
+
+.ProjectContainer{
+  display:flex;
+  padding: 24px;
+}
+.Pimg{
+  padding: 48px;
+}
+.Pdetails{
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  gap: 16px;
+}
+.utility{
+  display: flex;
+  gap: 10px;
+}
+.utility button{
+  border-radius: 10px;
+  border: 0;
+  flex-wrap: wrap;
 }

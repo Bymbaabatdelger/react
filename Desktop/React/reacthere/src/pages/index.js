@@ -5,6 +5,7 @@ import Section3 from "@/components/section3";
 import Section4 from "@/components/Section4";
 import Section5 from "@/components/Section5";
 import Footer from "@/components/Footer";
+import End from "@/components/End";
   
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Section4/>
       <Section5/>
       <Footer/>
+      <End/>
     </div>
   );
 }

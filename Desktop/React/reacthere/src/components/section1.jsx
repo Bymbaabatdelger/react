@@ -1,10 +1,10 @@
 import Icon from "../../public/Home/Desktop/Icon.png";
-import icon1 from "../../public/Home/Desktop/icon1-dot-emerald-500.png";
+import icon1 from "../../public/Home/Desktop/icon-dot-emerald-500dot.png";
 import photo from "../../public/Home/Desktop/Pic.png";
 import IconContainer from "@/components/IconContainer";
 export default function Section1(){
     return(
-        <section>
+        <section className="section">
         <div className="description">
           <h1>Hi , I'm Byambajargal</h1>
           <p>
