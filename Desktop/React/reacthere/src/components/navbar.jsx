@@ -3,10 +3,10 @@ import ThemeIcon from "./ThemeIcon";
 
 export default function Navbar() {
   return (
-    <header className="header">
+    <header className="w-screen row-gap 500px display-flex flex items-center px-80px py-16px">
       <div>Logo</div>
-      <div className="header-items">
-        <ul className="header-lists">
+      <div className="display-flex flex items-center row-gap : 20px">
+        <ul className="display-flex">
           {["About", "Work", "Testimonial", "Contact"].map((navItem) => {
             return <li>{navItem}</li>;
           })}

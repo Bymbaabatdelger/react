@@ -20,7 +20,7 @@ export default function Section1(){
                 <img src={Icon.src}></img>
                 Ulaanbaatar,Mongolia
               </div>
-              <div>
+              <div className="loc">
                 <img src={icon1.src}></img>
                 Available for new project
               </div>
