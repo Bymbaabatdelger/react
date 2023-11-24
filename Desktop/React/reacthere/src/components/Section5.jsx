@@ -3,7 +3,7 @@ const { default: Aboutbutton } = require("./aboutbutton");
 
 const Section5 = () => {
   return (
-    <div className="Section5">
+    <div className="flex justify-center items-center flex-col gap-16 py-24 px-20 ">
       <Aboutbutton title="Work" />
       <p>Some of the noteworthy projects I have built:</p>
       <ProjectRender />

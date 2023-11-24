@@ -3,17 +3,17 @@ const Project = (props) => {
   console.log(props.positionReverse);
   return (
     <div
-      className="ProjectContainer"
-      style={{ flexDirection: props.positionReverse ? "row" : "row-reverse" }}
+      className="flex p-10 w-screen rounded-xl sm:flex flex-col"
+      // style={{ flexDirection: props.positionReverse ? "row" : "row-reverse" }}
     >
-      <div className="Pimg">
-        <img src={props.img} />
+      <div className="flex items-center p-10 rounded-xl bg-gray-100">
+        <img className="h-[384] w-[480]" src={props.img} />
       </div>
-      <div className="Pdetails">
+      <div className="flex flex-col p-10 gap-4 h-[480] w-[480]">
         <h3>{props.title}</h3>
         <span>{props.desc}</span>
         <Utilities />
-        <img src={props.icon} />
+        <img className="h-8 w-8 " src={props.icon} />
       </div>
     </div>
   );

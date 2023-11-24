@@ -73,7 +73,7 @@ const second_row = [
 
 export default function Section3() {
   return (
-    <section className="section3">
+    <section className="flex justify-center items-center flex-col gap-10 py-24 px-20 ">
       <Aboutbutton title="Skills" />
       <p>The skills, tools and technologies I am really good at:</p>
       <Techstack data={first_row} />

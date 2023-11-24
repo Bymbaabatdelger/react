@@ -2,12 +2,12 @@ import Photo2 from "../../public/Home/Desktop/Picsagar.png";
 import Aboutbutton from "@/components/aboutbutton";
 export default function Section2 (){
     return(
-        <section className="Introduction">
-        <div className="introduction-container">
+        <section className="py-24 px-20  border-3 border-solid border-black bg-gray-100  sm: flex flex-col p-4 ">
+        <div className="flex flex-col gap-16 justify-center items-center">
           <Aboutbutton title="About me"/>
-          <div className="intro-column">
+          <div className="flex gap-24 sm:flex flex-col p-4">
             <img src={Photo2.src}></img>
-            <div className="intro-desc">
+            <div className="flex flex-col gap-7">
               <h1>Curius about me? Here you have it:</h1>
               <p>I'm a passionate, self-proclaimed designer who specializes
                  in full stack development (React.js & Node.js). I am very 
@@ -35,7 +35,7 @@ export default function Section2 (){
                   bites and build in public, or you can follow me on GitHub.
               </p>
               <p>Finally, some quick bits about me.</p>
-              <div className="lists">
+              <div className="flex flex-row gap-10">
               <div className="list">
                 <li>B.E. in Computer Engineering</li>
                 <li>Full time freelancer</li>

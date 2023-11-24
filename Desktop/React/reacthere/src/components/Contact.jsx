@@ -1,10 +1,10 @@
 
 const Contactme = (props) => {
     return(
-        <div className="email">
-        <img src={props.img}/>
+        <div className="flex flex-row gap-12 items-center">
+        <img className="h-10 w-10" src={props.img}/>
         <p>{props.email}</p>
-        <img src={props.image}/>
+        <img className="h-10 w-10" src={props.image}/>
     </div>
     )
 }

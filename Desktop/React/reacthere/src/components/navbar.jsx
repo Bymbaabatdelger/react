@@ -3,18 +3,18 @@ import ThemeIcon from "./ThemeIcon";
 
 export default function Navbar() {
   return (
-    <header className="w-screen row-gap 500px display-flex flex items-center px-80px py-16px">
+    <header className="flex w-screen items-center justify-between py-4  px-20  gap-500  bg-transparent dark:bg-sky-950">
       <div>Logo</div>
-      <div className="display-flex flex items-center row-gap : 20px">
-        <ul className="display-flex">
+      <div className=" flex gap-20 items-center">
+        <ul className="flex gap-10 ">
           {["About", "Work", "Testimonial", "Contact"].map((navItem) => {
-            return <li>{navItem}</li>;
+            return <li >{navItem}</li>;
           })}
         </ul>
-        <button className="header-theme">
+        <button className="h-24 w-24 p-6">
           <ThemeIcon />
         </button>
-        <button className="header-cv-button">Download CV</button>
+        <button className="w-136 h-32px rounded-xl bg-black text-white p-6">Download CV</button>
       </div>
     </header>
   );

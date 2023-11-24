@@ -2,7 +2,7 @@
 const Renderskill =(props) =>{ 
  return (
 <div className="details">
-    <img  src= {props.url}/>
+    <img className="h-16 w-16" src= {props.url}/>
     <p>{props.content}</p>
 </div>
  )

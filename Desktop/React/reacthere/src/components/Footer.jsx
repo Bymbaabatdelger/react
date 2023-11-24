@@ -8,7 +8,7 @@ import IconContainer from "./IconContainer"
 
 
 const Footer =() =>(
-    <div className="Footer">
+    <div className="flex justify-center items-center flex-col py-24 px-20  gap-10">
         <Aboutbutton title="Get in touch" />
         <p>What’s next? Feel free to reach out to me if you're looking for <br /> a developer, have a query, or simply want to connect.</p>
        <Contactme img={img.src} email="reachsagarshah@gmail.com" image={image.src}/>

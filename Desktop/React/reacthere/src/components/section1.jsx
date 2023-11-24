@@ -4,8 +4,8 @@ import photo from "../../public/Home/Desktop/Pic.png";
 import IconContainer from "@/components/IconContainer";
 export default function Section1(){
     return(
-        <section className="section">
-        <div className="description">
+        <section className="flex py-24 px-20 justify-between  sm:flex flex-col p-4 bg-transparent dark:bg-sky-950">
+        <div className="flex gap-10 flex-col p-5 w-[768px]">
           <h1>Hi , I'm Byambajargal</h1>
           <p>
             I'm a full stack developer (React.js & Node.js) with a focus on
@@ -14,24 +14,24 @@ export default function Section1(){
             responsive. Even though I have been creating web applications for
             over 7 years, I still love it as if it was something new.
           </p>
-          <div className="this-location-container">
-            <div className="this-location">
-              <div>
+          <div className="flex gap-10 flex-col">
+            <div className="flex flex-col gap-3">
+              <div className="flex gap-3">
                 <img src={Icon.src}></img>
                 Ulaanbaatar,Mongolia
               </div>
-              <div className="loc">
-                <img src={icon1.src}></img>
+              <div className="flex gap-3 items-center">
+                <img className="h-2 w-2" src={icon1.src}></img>
                 Available for new project
               </div>
             </div>
-            <div className="iconContainer">
+            <div >
               <IconContainer></IconContainer>
             </div>
           </div>
         </div>
         <div>
-          <img src={photo.src}></img>
+          <img  className="h-[320px] w-[280px] sm: flex justify-center " src={photo.src}></img>
         </div>
       </section>
     )

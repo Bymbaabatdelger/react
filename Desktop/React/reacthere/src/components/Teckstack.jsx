@@ -3,7 +3,7 @@ import Renderskill from "./Renderskill";
 const Techstack = (props) => {
   console.log("working");
   return (
-    <div className="content">
+    <div className="flex gap-16 sm:flex flex-wrap">
       {props.data.map((el) => {
         return <Renderskill url={el.url} content={el.content} />;
       })}
