@@ -2,10 +2,10 @@ import Photo2 from "../../public/Home/Desktop/Picsagar.png";
 import Aboutbutton from "@/components/aboutbutton";
 export default function Section2 (){
     return(
-        <section className="py-24 px-20  border-3 border-solid border-black bg-gray-100  sm: flex flex-col p-4 ">
+        <section className="py-24 px-20  border-3 border-solid border-black bg-gray-100  md: flex md:flex-col md:p-4 ">
         <div className="flex flex-col gap-16 justify-center items-center">
           <Aboutbutton title="About me"/>
-          <div className="flex gap-24 sm:flex flex-col p-4">
+          <div className="flex flex-col gap-24 md:flex md:flex-row md:p-4">
             <img src={Photo2.src}></img>
             <div className="flex flex-col gap-7">
               <h1>Curius about me? Here you have it:</h1>

@@ -3,7 +3,7 @@ const Project = (props) => {
   console.log(props.positionReverse);
   return (
     <div
-      className="flex p-10 w-screen rounded-xl sm:flex flex-col"
+      className="flex flex-col p-10 w-screen rounded-xl md:flex md:flex-row"
       // style={{ flexDirection: props.positionReverse ? "row" : "row-reverse" }}
     >
       <div className="flex items-center p-10 rounded-xl bg-gray-100">
