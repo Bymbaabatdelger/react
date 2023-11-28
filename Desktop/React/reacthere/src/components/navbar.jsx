@@ -1,7 +1,12 @@
 import ThemeIcon from "./ThemeIcon";
 
 export default function Navbar() {
+  const [isOpen , setIsOpen] = useState(false)
+  const Menuhandler = () =>{
+    setIsOpen(!isOpen)
+  }
   return (
+    
     <header className="flex w-screen items-center justify-between px-24 py-4 bg-transparent dark:bg-sky-950">
       <div className="text-xl">Logo</div>
       <div className="md:hidden">
